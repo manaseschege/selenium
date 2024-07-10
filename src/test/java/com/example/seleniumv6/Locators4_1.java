@@ -17,9 +17,9 @@ public class Locators4_1 {
 //            driver.findElement(By.id("hrefIncAdt")).click();
 //            count++;
 //        }
-for(count=1;count<3;count++){
-    driver.findElement(By.id("hrefIncAdt")).click();
-}
-        driver.findElement(By.id("divpaxinfo")). click();
+        for (count = 1; count < 3; count++) {
+            driver.findElement(By.id("hrefIncAdt")).click();
+        }
+        driver.findElement(By.id("divpaxinfo")).click();
     }
 }
